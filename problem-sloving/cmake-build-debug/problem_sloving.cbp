@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="problem_sloving"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/cygdrive/d/4 nd/code/my-code-in-4th-sememster/problem-sloving/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/cygwin/bin/make.exe -j4 -f &quot;/cygdrive/d/4\ nd/code/my-code-in-4th-sememster/problem-sloving/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/cygwin/bin/make.exe -j4 -f &quot;/cygdrive/d/4\ nd/code/my-code-in-4th-sememster/problem-sloving/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/cygwin/bin/make.exe -j4 -f &quot;/cygdrive/d/4\ nd/code/my-code-in-4th-sememster/problem-sloving/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/cygwin/bin/make.exe -j4 -f &quot;/cygdrive/d/4\ nd/code/my-code-in-4th-sememster/problem-sloving/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/cygdrive/d/4 nd/code/my-code-in-4th-sememster/problem-sloving/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/cygwin/bin/make.exe -j4 -f &quot;/cygdrive/d/4\ nd/code/my-code-in-4th-sememster/problem-sloving/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/cygwin/bin/make.exe -j4 -f &quot;/cygdrive/d/4\ nd/code/my-code-in-4th-sememster/problem-sloving/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/cygwin/bin/make.exe -j4 -f &quot;/cygdrive/d/4\ nd/code/my-code-in-4th-sememster/problem-sloving/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/cygwin/bin/make.exe -j4 -f &quot;/cygdrive/d/4\ nd/code/my-code-in-4th-sememster/problem-sloving/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="problem_sloving">
+				<Option output="/cygdrive/d/4 nd/code/my-code-in-4th-sememster/problem-sloving/cmake-build-debug/problem_sloving.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/d/4 nd/code/my-code-in-4th-sememster/problem-sloving/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.3.0/include/c++"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.3.0/include/c++/x86_64-pc-cygwin"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.3.0/include/c++/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.3.0/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.3.0/../../../../lib/../include/w32api"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/cygwin/bin/make.exe -j4 -f &quot;/cygdrive/d/4\ nd/code/my-code-in-4th-sememster/problem-sloving/cmake-build-debug/Makefile&quot;  VERBOSE=1 problem_sloving"/>
+					<CompileFile command="C:/cygwin/bin/make.exe -j4 -f &quot;/cygdrive/d/4\ nd/code/my-code-in-4th-sememster/problem-sloving/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/cygwin/bin/make.exe -j4 -f &quot;/cygdrive/d/4\ nd/code/my-code-in-4th-sememster/problem-sloving/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/cygwin/bin/make.exe -j4 -f &quot;/cygdrive/d/4\ nd/code/my-code-in-4th-sememster/problem-sloving/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="problem_sloving/fast">
+				<Option output="/cygdrive/d/4 nd/code/my-code-in-4th-sememster/problem-sloving/cmake-build-debug/problem_sloving.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/d/4 nd/code/my-code-in-4th-sememster/problem-sloving/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.3.0/include/c++"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.3.0/include/c++/x86_64-pc-cygwin"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.3.0/include/c++/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.3.0/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.3.0/../../../../lib/../include/w32api"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/cygwin/bin/make.exe -j4 -f &quot;/cygdrive/d/4\ nd/code/my-code-in-4th-sememster/problem-sloving/cmake-build-debug/Makefile&quot;  VERBOSE=1 problem_sloving/fast"/>
+					<CompileFile command="C:/cygwin/bin/make.exe -j4 -f &quot;/cygdrive/d/4\ nd/code/my-code-in-4th-sememster/problem-sloving/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/cygwin/bin/make.exe -j4 -f &quot;/cygdrive/d/4\ nd/code/my-code-in-4th-sememster/problem-sloving/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/cygwin/bin/make.exe -j4 -f &quot;/cygdrive/d/4\ nd/code/my-code-in-4th-sememster/problem-sloving/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="4-1b">
+				<Option output="/cygdrive/d/4 nd/code/my-code-in-4th-sememster/problem-sloving/cmake-build-debug/4-1b.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/d/4 nd/code/my-code-in-4th-sememster/problem-sloving/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.3.0/include/c++"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.3.0/include/c++/x86_64-pc-cygwin"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.3.0/include/c++/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.3.0/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.3.0/../../../../lib/../include/w32api"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/cygwin/bin/make.exe -j4 -f &quot;/cygdrive/d/4\ nd/code/my-code-in-4th-sememster/problem-sloving/cmake-build-debug/Makefile&quot;  VERBOSE=1 4-1b"/>
+					<CompileFile command="C:/cygwin/bin/make.exe -j4 -f &quot;/cygdrive/d/4\ nd/code/my-code-in-4th-sememster/problem-sloving/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/cygwin/bin/make.exe -j4 -f &quot;/cygdrive/d/4\ nd/code/my-code-in-4th-sememster/problem-sloving/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/cygwin/bin/make.exe -j4 -f &quot;/cygdrive/d/4\ nd/code/my-code-in-4th-sememster/problem-sloving/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="4-1b/fast">
+				<Option output="/cygdrive/d/4 nd/code/my-code-in-4th-sememster/problem-sloving/cmake-build-debug/4-1b.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/d/4 nd/code/my-code-in-4th-sememster/problem-sloving/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.3.0/include/c++"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.3.0/include/c++/x86_64-pc-cygwin"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.3.0/include/c++/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.3.0/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.3.0/../../../../lib/../include/w32api"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/cygwin/bin/make.exe -j4 -f &quot;/cygdrive/d/4\ nd/code/my-code-in-4th-sememster/problem-sloving/cmake-build-debug/Makefile&quot;  VERBOSE=1 4-1b/fast"/>
+					<CompileFile command="C:/cygwin/bin/make.exe -j4 -f &quot;/cygdrive/d/4\ nd/code/my-code-in-4th-sememster/problem-sloving/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/cygwin/bin/make.exe -j4 -f &quot;/cygdrive/d/4\ nd/code/my-code-in-4th-sememster/problem-sloving/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/cygwin/bin/make.exe -j4 -f &quot;/cygdrive/d/4\ nd/code/my-code-in-4th-sememster/problem-sloving/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="4-2a">
+				<Option output="/cygdrive/d/4 nd/code/my-code-in-4th-sememster/problem-sloving/cmake-build-debug/4-2a.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/d/4 nd/code/my-code-in-4th-sememster/problem-sloving/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.3.0/include/c++"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.3.0/include/c++/x86_64-pc-cygwin"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.3.0/include/c++/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.3.0/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.3.0/../../../../lib/../include/w32api"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/cygwin/bin/make.exe -j4 -f &quot;/cygdrive/d/4\ nd/code/my-code-in-4th-sememster/problem-sloving/cmake-build-debug/Makefile&quot;  VERBOSE=1 4-2a"/>
+					<CompileFile command="C:/cygwin/bin/make.exe -j4 -f &quot;/cygdrive/d/4\ nd/code/my-code-in-4th-sememster/problem-sloving/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/cygwin/bin/make.exe -j4 -f &quot;/cygdrive/d/4\ nd/code/my-code-in-4th-sememster/problem-sloving/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/cygwin/bin/make.exe -j4 -f &quot;/cygdrive/d/4\ nd/code/my-code-in-4th-sememster/problem-sloving/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="4-2a/fast">
+				<Option output="/cygdrive/d/4 nd/code/my-code-in-4th-sememster/problem-sloving/cmake-build-debug/4-2a.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/d/4 nd/code/my-code-in-4th-sememster/problem-sloving/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.3.0/include/c++"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.3.0/include/c++/x86_64-pc-cygwin"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.3.0/include/c++/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.3.0/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.3.0/../../../../lib/../include/w32api"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/cygwin/bin/make.exe -j4 -f &quot;/cygdrive/d/4\ nd/code/my-code-in-4th-sememster/problem-sloving/cmake-build-debug/Makefile&quot;  VERBOSE=1 4-2a/fast"/>
+					<CompileFile command="C:/cygwin/bin/make.exe -j4 -f &quot;/cygdrive/d/4\ nd/code/my-code-in-4th-sememster/problem-sloving/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/cygwin/bin/make.exe -j4 -f &quot;/cygdrive/d/4\ nd/code/my-code-in-4th-sememster/problem-sloving/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/cygwin/bin/make.exe -j4 -f &quot;/cygdrive/d/4\ nd/code/my-code-in-4th-sememster/problem-sloving/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/cygdrive/d/4 nd/code/my-code-in-4th-sememster/problem-sloving/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/cygwin/bin/make.exe -j4 -f &quot;/cygdrive/d/4\ nd/code/my-code-in-4th-sememster/problem-sloving/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/cygwin/bin/make.exe -j4 -f &quot;/cygdrive/d/4\ nd/code/my-code-in-4th-sememster/problem-sloving/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/cygwin/bin/make.exe -j4 -f &quot;/cygdrive/d/4\ nd/code/my-code-in-4th-sememster/problem-sloving/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/cygwin/bin/make.exe -j4 -f &quot;/cygdrive/d/4\ nd/code/my-code-in-4th-sememster/problem-sloving/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/cygdrive/d/4 nd/code/my-code-in-4th-sememster/problem-sloving/4-1b.cpp">
+			<Option target="4-1b"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/4 nd/code/my-code-in-4th-sememster/problem-sloving/4-2a.cpp">
+			<Option target="4-2a"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/4 nd/code/my-code-in-4th-sememster/problem-sloving/main.cpp">
+			<Option target="problem_sloving"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/4 nd/code/my-code-in-4th-sememster/problem-sloving/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
