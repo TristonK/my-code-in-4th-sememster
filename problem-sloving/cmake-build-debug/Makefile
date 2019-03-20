@@ -56,17 +56,6 @@ CMAKE_BINARY_DIR = "/cygdrive/d/4 nd/code/my-code-in-4th-sememster/problem-slovi
 #=============================================================================
 # Targets provided globally by CMake.
 
-# Special rule for the target rebuild_cache
-rebuild_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/cygdrive/c/Users/lenovo/.CLion2018.2/system/cygwin_cmake/bin/cmake.exe -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
-.PHONY : rebuild_cache
-
-# Special rule for the target rebuild_cache
-rebuild_cache/fast: rebuild_cache
-
-.PHONY : rebuild_cache/fast
-
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
@@ -77,6 +66,17 @@ edit_cache:
 edit_cache/fast: edit_cache
 
 .PHONY : edit_cache/fast
+
+# Special rule for the target rebuild_cache
+rebuild_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
+	/cygdrive/c/Users/lenovo/.CLion2018.2/system/cygwin_cmake/bin/cmake.exe -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+.PHONY : rebuild_cache
+
+# Special rule for the target rebuild_cache
+rebuild_cache/fast: rebuild_cache
+
+.PHONY : rebuild_cache/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -124,84 +124,164 @@ problem_sloving/fast:
 .PHONY : problem_sloving/fast
 
 #=============================================================================
-# Target rules for targets named 4-1b
+# Target rules for targets named 4-3b
 
 # Build rule for target.
-4-1b: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 4-1b
-.PHONY : 4-1b
+4-3b: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 4-3b
+.PHONY : 4-3b
 
 # fast build rule for target.
-4-1b/fast:
-	$(MAKE) -f CMakeFiles/4-1b.dir/build.make CMakeFiles/4-1b.dir/build
-.PHONY : 4-1b/fast
+4-3b/fast:
+	$(MAKE) -f CMakeFiles/4-3b.dir/build.make CMakeFiles/4-3b.dir/build
+.PHONY : 4-3b/fast
 
 #=============================================================================
-# Target rules for targets named 4-2a
+# Target rules for targets named 4-3d
 
 # Build rule for target.
-4-2a: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 4-2a
-.PHONY : 4-2a
+4-3d: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 4-3d
+.PHONY : 4-3d
 
 # fast build rule for target.
-4-2a/fast:
-	$(MAKE) -f CMakeFiles/4-2a.dir/build.make CMakeFiles/4-2a.dir/build
-.PHONY : 4-2a/fast
+4-3d/fast:
+	$(MAKE) -f CMakeFiles/4-3d.dir/build.make CMakeFiles/4-3d.dir/build
+.PHONY : 4-3d/fast
 
-4-1b.o: 4-1b.cpp.o
+#=============================================================================
+# Target rules for targets named 4-3a
 
-.PHONY : 4-1b.o
+# Build rule for target.
+4-3a: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 4-3a
+.PHONY : 4-3a
+
+# fast build rule for target.
+4-3a/fast:
+	$(MAKE) -f CMakeFiles/4-3a.dir/build.make CMakeFiles/4-3a.dir/build
+.PHONY : 4-3a/fast
+
+#=============================================================================
+# Target rules for targets named 4-3c
+
+# Build rule for target.
+4-3c: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 4-3c
+.PHONY : 4-3c
+
+# fast build rule for target.
+4-3c/fast:
+	$(MAKE) -f CMakeFiles/4-3c.dir/build.make CMakeFiles/4-3c.dir/build
+.PHONY : 4-3c/fast
+
+4-3a.o: 4-3a.cpp.o
+
+.PHONY : 4-3a.o
 
 # target to build an object file
-4-1b.cpp.o:
-	$(MAKE) -f CMakeFiles/4-1b.dir/build.make CMakeFiles/4-1b.dir/4-1b.cpp.o
-.PHONY : 4-1b.cpp.o
+4-3a.cpp.o:
+	$(MAKE) -f CMakeFiles/4-3a.dir/build.make CMakeFiles/4-3a.dir/4-3a.cpp.o
+.PHONY : 4-3a.cpp.o
 
-4-1b.i: 4-1b.cpp.i
+4-3a.i: 4-3a.cpp.i
 
-.PHONY : 4-1b.i
+.PHONY : 4-3a.i
 
 # target to preprocess a source file
-4-1b.cpp.i:
-	$(MAKE) -f CMakeFiles/4-1b.dir/build.make CMakeFiles/4-1b.dir/4-1b.cpp.i
-.PHONY : 4-1b.cpp.i
+4-3a.cpp.i:
+	$(MAKE) -f CMakeFiles/4-3a.dir/build.make CMakeFiles/4-3a.dir/4-3a.cpp.i
+.PHONY : 4-3a.cpp.i
 
-4-1b.s: 4-1b.cpp.s
+4-3a.s: 4-3a.cpp.s
 
-.PHONY : 4-1b.s
+.PHONY : 4-3a.s
 
 # target to generate assembly for a file
-4-1b.cpp.s:
-	$(MAKE) -f CMakeFiles/4-1b.dir/build.make CMakeFiles/4-1b.dir/4-1b.cpp.s
-.PHONY : 4-1b.cpp.s
+4-3a.cpp.s:
+	$(MAKE) -f CMakeFiles/4-3a.dir/build.make CMakeFiles/4-3a.dir/4-3a.cpp.s
+.PHONY : 4-3a.cpp.s
 
-4-2a.o: 4-2a.cpp.o
+4-3b.o: 4-3b.cpp.o
 
-.PHONY : 4-2a.o
+.PHONY : 4-3b.o
 
 # target to build an object file
-4-2a.cpp.o:
-	$(MAKE) -f CMakeFiles/4-2a.dir/build.make CMakeFiles/4-2a.dir/4-2a.cpp.o
-.PHONY : 4-2a.cpp.o
+4-3b.cpp.o:
+	$(MAKE) -f CMakeFiles/4-3b.dir/build.make CMakeFiles/4-3b.dir/4-3b.cpp.o
+.PHONY : 4-3b.cpp.o
 
-4-2a.i: 4-2a.cpp.i
+4-3b.i: 4-3b.cpp.i
 
-.PHONY : 4-2a.i
+.PHONY : 4-3b.i
 
 # target to preprocess a source file
-4-2a.cpp.i:
-	$(MAKE) -f CMakeFiles/4-2a.dir/build.make CMakeFiles/4-2a.dir/4-2a.cpp.i
-.PHONY : 4-2a.cpp.i
+4-3b.cpp.i:
+	$(MAKE) -f CMakeFiles/4-3b.dir/build.make CMakeFiles/4-3b.dir/4-3b.cpp.i
+.PHONY : 4-3b.cpp.i
 
-4-2a.s: 4-2a.cpp.s
+4-3b.s: 4-3b.cpp.s
 
-.PHONY : 4-2a.s
+.PHONY : 4-3b.s
 
 # target to generate assembly for a file
-4-2a.cpp.s:
-	$(MAKE) -f CMakeFiles/4-2a.dir/build.make CMakeFiles/4-2a.dir/4-2a.cpp.s
-.PHONY : 4-2a.cpp.s
+4-3b.cpp.s:
+	$(MAKE) -f CMakeFiles/4-3b.dir/build.make CMakeFiles/4-3b.dir/4-3b.cpp.s
+.PHONY : 4-3b.cpp.s
+
+4-3c.o: 4-3c.cpp.o
+
+.PHONY : 4-3c.o
+
+# target to build an object file
+4-3c.cpp.o:
+	$(MAKE) -f CMakeFiles/4-3c.dir/build.make CMakeFiles/4-3c.dir/4-3c.cpp.o
+.PHONY : 4-3c.cpp.o
+
+4-3c.i: 4-3c.cpp.i
+
+.PHONY : 4-3c.i
+
+# target to preprocess a source file
+4-3c.cpp.i:
+	$(MAKE) -f CMakeFiles/4-3c.dir/build.make CMakeFiles/4-3c.dir/4-3c.cpp.i
+.PHONY : 4-3c.cpp.i
+
+4-3c.s: 4-3c.cpp.s
+
+.PHONY : 4-3c.s
+
+# target to generate assembly for a file
+4-3c.cpp.s:
+	$(MAKE) -f CMakeFiles/4-3c.dir/build.make CMakeFiles/4-3c.dir/4-3c.cpp.s
+.PHONY : 4-3c.cpp.s
+
+4-3d.o: 4-3d.cpp.o
+
+.PHONY : 4-3d.o
+
+# target to build an object file
+4-3d.cpp.o:
+	$(MAKE) -f CMakeFiles/4-3d.dir/build.make CMakeFiles/4-3d.dir/4-3d.cpp.o
+.PHONY : 4-3d.cpp.o
+
+4-3d.i: 4-3d.cpp.i
+
+.PHONY : 4-3d.i
+
+# target to preprocess a source file
+4-3d.cpp.i:
+	$(MAKE) -f CMakeFiles/4-3d.dir/build.make CMakeFiles/4-3d.dir/4-3d.cpp.i
+.PHONY : 4-3d.cpp.i
+
+4-3d.s: 4-3d.cpp.s
+
+.PHONY : 4-3d.s
+
+# target to generate assembly for a file
+4-3d.cpp.s:
+	$(MAKE) -f CMakeFiles/4-3d.dir/build.make CMakeFiles/4-3d.dir/4-3d.cpp.s
+.PHONY : 4-3d.cpp.s
 
 main.o: main.cpp.o
 
@@ -236,17 +316,25 @@ help:
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
+	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... problem_sloving"
-	@echo "... 4-1b"
-	@echo "... 4-2a"
-	@echo "... edit_cache"
-	@echo "... 4-1b.o"
-	@echo "... 4-1b.i"
-	@echo "... 4-1b.s"
-	@echo "... 4-2a.o"
-	@echo "... 4-2a.i"
-	@echo "... 4-2a.s"
+	@echo "... 4-3b"
+	@echo "... 4-3d"
+	@echo "... 4-3a"
+	@echo "... 4-3c"
+	@echo "... 4-3a.o"
+	@echo "... 4-3a.i"
+	@echo "... 4-3a.s"
+	@echo "... 4-3b.o"
+	@echo "... 4-3b.i"
+	@echo "... 4-3b.s"
+	@echo "... 4-3c.o"
+	@echo "... 4-3c.i"
+	@echo "... 4-3c.s"
+	@echo "... 4-3d.o"
+	@echo "... 4-3d.i"
+	@echo "... 4-3d.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

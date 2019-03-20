@@ -1,5 +1,7 @@
+/cygdrive/d/4 nd/code/my-code-in-4th-sememster/problem-sloving/cmake-build-debug/CMakeFiles/edit_cache.dir
 /cygdrive/d/4 nd/code/my-code-in-4th-sememster/problem-sloving/cmake-build-debug/CMakeFiles/rebuild_cache.dir
 /cygdrive/d/4 nd/code/my-code-in-4th-sememster/problem-sloving/cmake-build-debug/CMakeFiles/problem_sloving.dir
-/cygdrive/d/4 nd/code/my-code-in-4th-sememster/problem-sloving/cmake-build-debug/CMakeFiles/4-1b.dir
-/cygdrive/d/4 nd/code/my-code-in-4th-sememster/problem-sloving/cmake-build-debug/CMakeFiles/4-2a.dir
-/cygdrive/d/4 nd/code/my-code-in-4th-sememster/problem-sloving/cmake-build-debug/CMakeFiles/edit_cache.dir
+/cygdrive/d/4 nd/code/my-code-in-4th-sememster/problem-sloving/cmake-build-debug/CMakeFiles/4-3b.dir
+/cygdrive/d/4 nd/code/my-code-in-4th-sememster/problem-sloving/cmake-build-debug/CMakeFiles/4-3d.dir
+/cygdrive/d/4 nd/code/my-code-in-4th-sememster/problem-sloving/cmake-build-debug/CMakeFiles/4-3a.dir
+/cygdrive/d/4 nd/code/my-code-in-4th-sememster/problem-sloving/cmake-build-debug/CMakeFiles/4-3c.dir

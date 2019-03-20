@@ -1,0 +1,1 @@
+C:/cygwin/bin/c++.exe -g  -Wl,--enable-auto-import CMakeFiles/4-2c.dir/4-2c.cpp.o  -o 4-2c.exe -Wl,--out-implib,lib4-2c.dll.a -Wl,--major-image-version,0,--minor-image-version,0 

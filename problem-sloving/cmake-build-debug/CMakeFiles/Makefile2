@@ -71,7 +71,7 @@ CMAKE_BINARY_DIR = "/cygdrive/d/4 nd/code/my-code-in-4th-sememster/problem-slovi
 CMakeFiles/problem_sloving.dir/all:
 	$(MAKE) -f CMakeFiles/problem_sloving.dir/build.make CMakeFiles/problem_sloving.dir/depend
 	$(MAKE) -f CMakeFiles/problem_sloving.dir/build.make CMakeFiles/problem_sloving.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/cygdrive/d/4 nd/code/my-code-in-4th-sememster/problem-sloving/cmake-build-debug/CMakeFiles" --progress-num=5,6 "Built target problem_sloving"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/cygdrive/d/4 nd/code/my-code-in-4th-sememster/problem-sloving/cmake-build-debug/CMakeFiles" --progress-num=9,10 "Built target problem_sloving"
 .PHONY : CMakeFiles/problem_sloving.dir/all
 
 # Include target in all.
@@ -102,76 +102,150 @@ clean: CMakeFiles/problem_sloving.dir/clean
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/4-1b.dir
+# Target rules for target CMakeFiles/4-3b.dir
 
 # All Build rule for target.
-CMakeFiles/4-1b.dir/all:
-	$(MAKE) -f CMakeFiles/4-1b.dir/build.make CMakeFiles/4-1b.dir/depend
-	$(MAKE) -f CMakeFiles/4-1b.dir/build.make CMakeFiles/4-1b.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/cygdrive/d/4 nd/code/my-code-in-4th-sememster/problem-sloving/cmake-build-debug/CMakeFiles" --progress-num=1,2 "Built target 4-1b"
-.PHONY : CMakeFiles/4-1b.dir/all
+CMakeFiles/4-3b.dir/all:
+	$(MAKE) -f CMakeFiles/4-3b.dir/build.make CMakeFiles/4-3b.dir/depend
+	$(MAKE) -f CMakeFiles/4-3b.dir/build.make CMakeFiles/4-3b.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/cygdrive/d/4 nd/code/my-code-in-4th-sememster/problem-sloving/cmake-build-debug/CMakeFiles" --progress-num=3,4 "Built target 4-3b"
+.PHONY : CMakeFiles/4-3b.dir/all
 
 # Include target in all.
-all: CMakeFiles/4-1b.dir/all
+all: CMakeFiles/4-3b.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/4-1b.dir/rule: cmake_check_build_system
+CMakeFiles/4-3b.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start "/cygdrive/d/4 nd/code/my-code-in-4th-sememster/problem-sloving/cmake-build-debug/CMakeFiles" 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/4-1b.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/4-3b.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start "/cygdrive/d/4 nd/code/my-code-in-4th-sememster/problem-sloving/cmake-build-debug/CMakeFiles" 0
-.PHONY : CMakeFiles/4-1b.dir/rule
+.PHONY : CMakeFiles/4-3b.dir/rule
 
 # Convenience name for target.
-4-1b: CMakeFiles/4-1b.dir/rule
+4-3b: CMakeFiles/4-3b.dir/rule
 
-.PHONY : 4-1b
-
-# clean rule for target.
-CMakeFiles/4-1b.dir/clean:
-	$(MAKE) -f CMakeFiles/4-1b.dir/build.make CMakeFiles/4-1b.dir/clean
-.PHONY : CMakeFiles/4-1b.dir/clean
+.PHONY : 4-3b
 
 # clean rule for target.
-clean: CMakeFiles/4-1b.dir/clean
+CMakeFiles/4-3b.dir/clean:
+	$(MAKE) -f CMakeFiles/4-3b.dir/build.make CMakeFiles/4-3b.dir/clean
+.PHONY : CMakeFiles/4-3b.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/4-3b.dir/clean
 
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/4-2a.dir
+# Target rules for target CMakeFiles/4-3d.dir
 
 # All Build rule for target.
-CMakeFiles/4-2a.dir/all:
-	$(MAKE) -f CMakeFiles/4-2a.dir/build.make CMakeFiles/4-2a.dir/depend
-	$(MAKE) -f CMakeFiles/4-2a.dir/build.make CMakeFiles/4-2a.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/cygdrive/d/4 nd/code/my-code-in-4th-sememster/problem-sloving/cmake-build-debug/CMakeFiles" --progress-num=3,4 "Built target 4-2a"
-.PHONY : CMakeFiles/4-2a.dir/all
+CMakeFiles/4-3d.dir/all:
+	$(MAKE) -f CMakeFiles/4-3d.dir/build.make CMakeFiles/4-3d.dir/depend
+	$(MAKE) -f CMakeFiles/4-3d.dir/build.make CMakeFiles/4-3d.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/cygdrive/d/4 nd/code/my-code-in-4th-sememster/problem-sloving/cmake-build-debug/CMakeFiles" --progress-num=7,8 "Built target 4-3d"
+.PHONY : CMakeFiles/4-3d.dir/all
 
 # Include target in all.
-all: CMakeFiles/4-2a.dir/all
+all: CMakeFiles/4-3d.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/4-2a.dir/rule: cmake_check_build_system
+CMakeFiles/4-3d.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start "/cygdrive/d/4 nd/code/my-code-in-4th-sememster/problem-sloving/cmake-build-debug/CMakeFiles" 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/4-2a.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/4-3d.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start "/cygdrive/d/4 nd/code/my-code-in-4th-sememster/problem-sloving/cmake-build-debug/CMakeFiles" 0
-.PHONY : CMakeFiles/4-2a.dir/rule
+.PHONY : CMakeFiles/4-3d.dir/rule
 
 # Convenience name for target.
-4-2a: CMakeFiles/4-2a.dir/rule
+4-3d: CMakeFiles/4-3d.dir/rule
 
-.PHONY : 4-2a
-
-# clean rule for target.
-CMakeFiles/4-2a.dir/clean:
-	$(MAKE) -f CMakeFiles/4-2a.dir/build.make CMakeFiles/4-2a.dir/clean
-.PHONY : CMakeFiles/4-2a.dir/clean
+.PHONY : 4-3d
 
 # clean rule for target.
-clean: CMakeFiles/4-2a.dir/clean
+CMakeFiles/4-3d.dir/clean:
+	$(MAKE) -f CMakeFiles/4-3d.dir/build.make CMakeFiles/4-3d.dir/clean
+.PHONY : CMakeFiles/4-3d.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/4-3d.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/4-3a.dir
+
+# All Build rule for target.
+CMakeFiles/4-3a.dir/all:
+	$(MAKE) -f CMakeFiles/4-3a.dir/build.make CMakeFiles/4-3a.dir/depend
+	$(MAKE) -f CMakeFiles/4-3a.dir/build.make CMakeFiles/4-3a.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/cygdrive/d/4 nd/code/my-code-in-4th-sememster/problem-sloving/cmake-build-debug/CMakeFiles" --progress-num=1,2 "Built target 4-3a"
+.PHONY : CMakeFiles/4-3a.dir/all
+
+# Include target in all.
+all: CMakeFiles/4-3a.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/4-3a.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start "/cygdrive/d/4 nd/code/my-code-in-4th-sememster/problem-sloving/cmake-build-debug/CMakeFiles" 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/4-3a.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "/cygdrive/d/4 nd/code/my-code-in-4th-sememster/problem-sloving/cmake-build-debug/CMakeFiles" 0
+.PHONY : CMakeFiles/4-3a.dir/rule
+
+# Convenience name for target.
+4-3a: CMakeFiles/4-3a.dir/rule
+
+.PHONY : 4-3a
+
+# clean rule for target.
+CMakeFiles/4-3a.dir/clean:
+	$(MAKE) -f CMakeFiles/4-3a.dir/build.make CMakeFiles/4-3a.dir/clean
+.PHONY : CMakeFiles/4-3a.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/4-3a.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/4-3c.dir
+
+# All Build rule for target.
+CMakeFiles/4-3c.dir/all:
+	$(MAKE) -f CMakeFiles/4-3c.dir/build.make CMakeFiles/4-3c.dir/depend
+	$(MAKE) -f CMakeFiles/4-3c.dir/build.make CMakeFiles/4-3c.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/cygdrive/d/4 nd/code/my-code-in-4th-sememster/problem-sloving/cmake-build-debug/CMakeFiles" --progress-num=5,6 "Built target 4-3c"
+.PHONY : CMakeFiles/4-3c.dir/all
+
+# Include target in all.
+all: CMakeFiles/4-3c.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/4-3c.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start "/cygdrive/d/4 nd/code/my-code-in-4th-sememster/problem-sloving/cmake-build-debug/CMakeFiles" 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/4-3c.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "/cygdrive/d/4 nd/code/my-code-in-4th-sememster/problem-sloving/cmake-build-debug/CMakeFiles" 0
+.PHONY : CMakeFiles/4-3c.dir/rule
+
+# Convenience name for target.
+4-3c: CMakeFiles/4-3c.dir/rule
+
+.PHONY : 4-3c
+
+# clean rule for target.
+CMakeFiles/4-3c.dir/clean:
+	$(MAKE) -f CMakeFiles/4-3c.dir/build.make CMakeFiles/4-3c.dir/clean
+.PHONY : CMakeFiles/4-3c.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/4-3c.dir/clean
 
 .PHONY : clean
 
