@@ -1,8 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/4-3a.dir/4-3a.cpp.o"
   "4-3a.pdb"
-  "4-3a.exe"
-  "lib4-3a.dll.a"
+  "4-3a"
 )
 
 # Per-language clean rules from dependency scanning.

@@ -1,1 +1,0 @@
-C:/cygwin/bin/c++.exe -g  -Wl,--enable-auto-import CMakeFiles/4-2a.dir/4-2a.cpp.o  -o 4-2a.exe -Wl,--out-implib,lib4-2a.dll.a -Wl,--major-image-version,0,--minor-image-version,0 

@@ -1,4 +1,18 @@
-C:\Users\lenovo\.CLion2018.2\system\cygwin_cmake\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=C:/cygwin/bin/make.exe -DCMAKE_C_COMPILER=C:/cygwin/bin/gcc.exe -DCMAKE_CXX_COMPILER=C:/cygwin/bin/c++.exe -G "CodeBlocks - Unix Makefiles" "/cygdrive/d/4 nd/code/my-code-in-4th-sememster/problem-sloving"
+/home/kuangsl/Downloads/clion-2018.3.4/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/kuangsl/my-code-in-4th-sememster/problem-sloving
+-- The C compiler identification is GNU 5.4.0
+-- The CXX compiler identification is GNU 5.4.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
 -- Configuring done
 -- Generating done
--- Build files have been written to: /cygdrive/d/4 nd/code/my-code-in-4th-sememster/problem-sloving/cmake-build-debug
+-- Build files have been written to: /home/kuangsl/my-code-in-4th-sememster/problem-sloving/cmake-build-debug

@@ -1,8 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/problem_sloving.dir/main.cpp.o"
   "problem_sloving.pdb"
-  "problem_sloving.exe"
-  "libproblem_sloving.dll.a"
+  "problem_sloving"
 )
 
 # Per-language clean rules from dependency scanning.
