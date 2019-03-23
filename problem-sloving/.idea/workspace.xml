@@ -2,10 +2,6 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
-      <config projectName="problem_sloving" targetName="4-3a" />
-      <config projectName="problem_sloving" targetName="4-3d" />
-      <config projectName="problem_sloving" targetName="4-3c" />
-      <config projectName="problem_sloving" targetName="4-3b" />
       <config projectName="problem_sloving" targetName="problem_sloving" />
     </generated>
   </component>
@@ -16,9 +12,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d61f4f73-094d-4472-be19-3325eb2740b9" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/4-1a.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/4-1b.cpp" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/4-2/4-4-a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4-4-b" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4-4-c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4-4a.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4-4b.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4-4c.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4-4d.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/problem_sloving.dir/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/problem_sloving.dir/main.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/problem_sloving" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/problem_sloving" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -30,20 +35,11 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/main.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="29">
-              <caret line="1" column="20" lean-forward="true" selection-start-line="1" selection-start-column="20" selection-end-line="1" selection-end-column="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="232">
-              <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+            <state relative-caret-position="87">
+              <caret line="3" column="26" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -69,13 +65,20 @@
         <option value="$PROJECT_DIR$/4-2b.cpp" />
         <option value="$PROJECT_DIR$/4-3-a" />
         <option value="$PROJECT_DIR$/4-3a.cpp" />
-        <option value="$PROJECT_DIR$/main.cpp" />
         <option value="$PROJECT_DIR$/4-3b.cpp" />
         <option value="$PROJECT_DIR$/4-3-b" />
         <option value="$PROJECT_DIR$/4-3-c" />
         <option value="$PROJECT_DIR$/4-3-d" />
         <option value="$PROJECT_DIR$/4-3d.cpp" />
         <option value="$PROJECT_DIR$/4-3c.cpp" />
+        <option value="$PROJECT_DIR$/main.cpp" />
+        <option value="$PROJECT_DIR$/4-2/4-4-a" />
+        <option value="$PROJECT_DIR$/4-4a.cpp" />
+        <option value="$PROJECT_DIR$/4-4-b" />
+        <option value="$PROJECT_DIR$/4-4b.cpp" />
+        <option value="$PROJECT_DIR$/4-4-c" />
+        <option value="$PROJECT_DIR$/4-4c.cpp" />
+        <option value="$PROJECT_DIR$/4-4d.cpp" />
         <option value="$PROJECT_DIR$/CMakeLists.txt" />
       </list>
     </option>
@@ -122,23 +125,18 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="problem_sloving" type="b2602c69:ProjectViewProjectNode" />
-              <item name="problem-sloving" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="problem_sloving" type="b2602c69:ProjectViewProjectNode" />
-              <item name="problem-sloving" type="462c0819:PsiDirectoryNode" />
-              <item name="4-1" type="462c0819:PsiDirectoryNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -204,18 +202,19 @@
       <workItem from="1553091926705" duration="3747000" />
       <workItem from="1553134538904" duration="164000" />
       <workItem from="1553224815852" duration="2286000" />
-      <workItem from="1553341523222" duration="182000" />
+      <workItem from="1553341523222" duration="2133000" />
+      <workItem from="1553346858165" duration="3868000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="62303000" />
+    <option name="totallyTimeSpent" value="68122000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="66" y="-11" width="1855" height="1092" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17985612" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18206973" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -236,18 +235,34 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Database" order="3" />
     </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18206973" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3297587" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3253138" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3994638" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.3297587" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="CMake" order="11" weight="0.3297587" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32635984" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/4-1a.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1764">
-          <caret line="84" lean-forward="true" selection-start-line="84" selection-end-line="84" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/4-1a.cpp" />
     <entry file="file://$PROJECT_DIR$/4-1/simplex.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="651">
@@ -256,129 +271,91 @@
       </provider>
     </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.cpp" />
-    <entry file="file://$PROJECT_DIR$/4-1b.cpp">
+    <entry file="file://$PROJECT_DIR$/4-1b.cpp" />
+    <entry file="file://$PROJECT_DIR$/4-2-c" />
+    <entry file="file://$PROJECT_DIR$/4-2-d" />
+    <entry file="file://$PROJECT_DIR$/4-2-a" />
+    <entry file="file://$PROJECT_DIR$/4-2c.cpp" />
+    <entry file="file://$PROJECT_DIR$/4-2d.cpp" />
+    <entry file="file://$PROJECT_DIR$/4-2b.cpp" />
+    <entry file="file://$PROJECT_DIR$/4-3-a" />
+    <entry file="file://$PROJECT_DIR$/4-2a.cpp" />
+    <entry file="file://$PROJECT_DIR$/4-3a.cpp" />
+    <entry file="file://$PROJECT_DIR$/4-3-b" />
+    <entry file="file://$PROJECT_DIR$/4-3-c" />
+    <entry file="file://$PROJECT_DIR$/4-3-d" />
+    <entry file="file://$PROJECT_DIR$/4-3b.cpp" />
+    <entry file="file://$PROJECT_DIR$/4-3d.cpp" />
+    <entry file="file://$PROJECT_DIR$/4-3c.cpp" />
+    <entry file="file://$PROJECT_DIR$/4-1/4-1b.cpp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/4-1/4-1a.cpp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/4-2/4-2a.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1407">
-          <caret line="67" column="17" selection-start-line="67" selection-start-column="17" selection-end-line="67" selection-end-column="17" />
+        <state relative-caret-position="376">
+          <caret line="59" column="32" lean-forward="true" selection-start-line="57" selection-start-column="4" selection-end-line="59" selection-end-column="32" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/4-2-c">
+    <entry file="file://$PROJECT_DIR$/4-2/4-4-a">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="2" column="2" lean-forward="true" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="2" />
+        <state relative-caret-position="174">
+          <caret line="6" column="32" selection-start-line="6" selection-start-column="32" selection-end-line="6" selection-end-column="32" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/4-2-d">
+    <entry file="file://$PROJECT_DIR$/4-4a.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="2" selection-end-column="2" />
+        <state relative-caret-position="124">
+          <caret line="18" column="23" lean-forward="true" selection-end-line="40" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/4-2-a">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/4-2c.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="63" column="1" lean-forward="true" selection-start-line="63" selection-start-column="1" selection-end-line="63" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/4-2d.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="13" column="1" selection-start-line="13" selection-end-line="13" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/4-2b.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="8" column="12" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/4-3-a">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="1" column="24" lean-forward="true" selection-start-line="1" selection-start-column="24" selection-end-line="1" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/4-2a.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="59" column="32" lean-forward="true" selection-start-line="57" selection-start-column="3" selection-end-line="59" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/4-3a.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="177">
-          <caret line="14" column="24" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/4-3-b">
+    <entry file="file://$PROJECT_DIR$/4-4-b">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="26" selection-start-column="26" selection-end-column="26" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/4-3-c">
+    <entry file="file://$PROJECT_DIR$/4-4b.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="58">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/4-4-c">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="58">
           <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/4-3-d">
+    <entry file="file://$PROJECT_DIR$/4-4c.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="26" selection-start-column="26" selection-end-column="26" />
+        <state relative-caret-position="464">
+          <caret line="37" column="62" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="62" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/4-3b.cpp">
+    <entry file="file://$PROJECT_DIR$/4-4d.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="406">
-          <caret line="14" column="32" selection-start-line="12" selection-start-column="4" selection-end-line="14" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/4-3d.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="496">
-          <caret line="29" column="9" lean-forward="true" selection-start-line="29" selection-start-column="9" selection-end-line="29" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/4-3c.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2146">
-          <caret line="74" column="1" selection-start-line="74" selection-start-column="1" selection-end-line="74" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="29">
-          <caret line="1" column="20" lean-forward="true" selection-start-line="1" selection-start-column="20" selection-end-line="1" selection-end-column="20" />
+        <state relative-caret-position="261">
+          <caret line="9" column="20" lean-forward="true" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
-          <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+        <state relative-caret-position="87">
+          <caret line="3" column="26" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
         </state>
       </provider>
     </entry>
