@@ -2,11 +2,11 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
-      <config projectName="problem_sloving" targetName="problem_sloving" />
+      <config projectName="problem_sloving" targetName="4-3a" />
       <config projectName="problem_sloving" targetName="4-3d" />
       <config projectName="problem_sloving" targetName="4-3c" />
       <config projectName="problem_sloving" targetName="4-3b" />
-      <config projectName="problem_sloving" targetName="4-3a" />
+      <config projectName="problem_sloving" targetName="problem_sloving" />
     </generated>
   </component>
   <component name="CMakeSettings" AUTO_RELOAD="true">
@@ -16,8 +16,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d61f4f73-094d-4472-be19-3325eb2740b9" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/4-3-d" beforeDir="false" afterPath="$PROJECT_DIR$/4-3-d" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/4-3d.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/4-3d.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/4-3c.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/4-3c.cpp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -39,10 +39,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/4-3d.cpp">
+        <entry file="file://$PROJECT_DIR$/4-3c.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="493">
-              <caret line="29" column="9" lean-forward="true" selection-start-line="29" selection-start-column="9" selection-end-line="29" selection-end-column="9" />
+            <state relative-caret-position="2146">
+              <caret line="74" column="1" selection-start-line="74" selection-start-column="1" selection-end-line="74" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -73,9 +73,9 @@
         <option value="$PROJECT_DIR$/4-3b.cpp" />
         <option value="$PROJECT_DIR$/4-3-b" />
         <option value="$PROJECT_DIR$/4-3-c" />
-        <option value="$PROJECT_DIR$/4-3c.cpp" />
         <option value="$PROJECT_DIR$/4-3-d" />
         <option value="$PROJECT_DIR$/4-3d.cpp" />
+        <option value="$PROJECT_DIR$/4-3c.cpp" />
       </list>
     </option>
   </component>
@@ -192,11 +192,11 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Build All" />
       <item itemvalue="Application.4-3a" />
       <item itemvalue="Application.4-3b" />
       <item itemvalue="Application.4-3c" />
       <item itemvalue="Application.4-3d" />
+      <item itemvalue="Application.Build All" />
       <item itemvalue="Application.problem_sloving" />
     </list>
   </component>
@@ -227,16 +227,18 @@
       <workItem from="1553091926705" duration="3747000" />
       <workItem from="1553134538904" duration="164000" />
       <workItem from="1553224815852" duration="2286000" />
+      <workItem from="1553341523222" duration="18000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="62121000" />
+    <option name="totallyTimeSpent" value="62139000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="67" y="-6" width="1853" height="1086" extended-state="6" />
+    <frame x="66" y="-11" width="1855" height="1092" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1776425" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17985612" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -382,10 +384,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/4-3c.cpp">
+    <entry file="file://$PROJECT_DIR$/4-3d.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="206">
-          <caret line="8" column="32" lean-forward="true" selection-start-line="6" selection-start-column="4" selection-end-line="8" selection-end-column="32" />
+        <state relative-caret-position="496">
+          <caret line="29" column="9" lean-forward="true" selection-start-line="29" selection-start-column="9" selection-end-line="29" selection-end-column="9" />
         </state>
       </provider>
     </entry>
@@ -396,10 +398,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/4-3d.cpp">
+    <entry file="file://$PROJECT_DIR$/4-3c.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="29" column="9" lean-forward="true" selection-start-line="29" selection-start-column="9" selection-end-line="29" selection-end-column="9" />
+        <state relative-caret-position="2146">
+          <caret line="74" column="1" selection-start-line="74" selection-start-column="1" selection-end-line="74" selection-end-column="1" />
         </state>
       </provider>
     </entry>
