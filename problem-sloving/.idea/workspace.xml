@@ -16,8 +16,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d61f4f73-094d-4472-be19-3325eb2740b9" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/4-3c.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/4-3c.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/4-1a.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/4-1b.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -32,17 +33,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="290">
-              <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+            <state relative-caret-position="29">
+              <caret line="1" column="20" lean-forward="true" selection-start-line="1" selection-start-column="20" selection-end-line="1" selection-end-column="20" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/4-3c.cpp">
+        <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2146">
-              <caret line="74" column="1" selection-start-line="74" selection-start-column="1" selection-end-line="74" selection-end-column="1" />
+            <state relative-caret-position="232">
+              <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -66,7 +67,6 @@
         <option value="$PROJECT_DIR$/4-2-a" />
         <option value="$PROJECT_DIR$/4-2a.cpp" />
         <option value="$PROJECT_DIR$/4-2b.cpp" />
-        <option value="$PROJECT_DIR$/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/4-3-a" />
         <option value="$PROJECT_DIR$/4-3a.cpp" />
         <option value="$PROJECT_DIR$/main.cpp" />
@@ -76,6 +76,7 @@
         <option value="$PROJECT_DIR$/4-3-d" />
         <option value="$PROJECT_DIR$/4-3d.cpp" />
         <option value="$PROJECT_DIR$/4-3c.cpp" />
+        <option value="$PROJECT_DIR$/CMakeLists.txt" />
       </list>
     </option>
   </component>
@@ -160,27 +161,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.4-3d">
-    <configuration name="4-3a" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="problem_sloving" TARGET_NAME="4-3a" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="problem_sloving" RUN_TARGET_NAME="4-3a">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="4-3b" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="problem_sloving" TARGET_NAME="4-3b" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="problem_sloving" RUN_TARGET_NAME="4-3b">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="4-3c" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="problem_sloving" TARGET_NAME="4-3c" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="problem_sloving" RUN_TARGET_NAME="4-3c">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="4-3d" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="problem_sloving" TARGET_NAME="4-3d" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="problem_sloving" RUN_TARGET_NAME="4-3d">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.problem_sloving">
     <configuration name="Build All" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" EXPLICIT_BUILD_TARGET_NAME="all">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -192,10 +173,6 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.4-3a" />
-      <item itemvalue="Application.4-3b" />
-      <item itemvalue="Application.4-3c" />
-      <item itemvalue="Application.4-3d" />
       <item itemvalue="Application.Build All" />
       <item itemvalue="Application.problem_sloving" />
     </list>
@@ -227,12 +204,12 @@
       <workItem from="1553091926705" duration="3747000" />
       <workItem from="1553134538904" duration="164000" />
       <workItem from="1553224815852" duration="2286000" />
-      <workItem from="1553341523222" duration="18000" />
+      <workItem from="1553341523222" duration="182000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="62139000" />
+    <option name="totallyTimeSpent" value="62303000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="66" y="-11" width="1855" height="1092" extended-state="6" />
@@ -328,13 +305,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="3" column="26" lean-forward="true" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/4-3-a">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="21">
@@ -391,17 +361,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/4-3c.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2146">
           <caret line="74" column="1" selection-start-line="74" selection-start-column="1" selection-end-line="74" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="29">
+          <caret line="1" column="20" lean-forward="true" selection-start-line="1" selection-start-column="20" selection-end-line="1" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
         </state>
       </provider>
     </entry>

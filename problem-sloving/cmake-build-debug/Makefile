@@ -56,17 +56,6 @@ CMAKE_BINARY_DIR = /home/kuangsl/my-code-in-4th-sememster/problem-sloving/cmake-
 #=============================================================================
 # Targets provided globally by CMake.
 
-# Special rule for the target edit_cache
-edit_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/home/kuangsl/Downloads/clion-2018.3.4/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
-.PHONY : edit_cache
-
-# Special rule for the target edit_cache
-edit_cache/fast: edit_cache
-
-.PHONY : edit_cache/fast
-
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
@@ -77,6 +66,17 @@ rebuild_cache:
 rebuild_cache/fast: rebuild_cache
 
 .PHONY : rebuild_cache/fast
+
+# Special rule for the target edit_cache
+edit_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
+	/home/kuangsl/Downloads/clion-2018.3.4/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+.PHONY : edit_cache
+
+# Special rule for the target edit_cache
+edit_cache/fast: edit_cache
+
+.PHONY : edit_cache/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -111,19 +111,6 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named 4-3b
-
-# Build rule for target.
-4-3b: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 4-3b
-.PHONY : 4-3b
-
-# fast build rule for target.
-4-3b/fast:
-	$(MAKE) -f CMakeFiles/4-3b.dir/build.make CMakeFiles/4-3b.dir/build
-.PHONY : 4-3b/fast
-
-#=============================================================================
 # Target rules for targets named problem_sloving
 
 # Build rule for target.
@@ -135,153 +122,6 @@ problem_sloving: cmake_check_build_system
 problem_sloving/fast:
 	$(MAKE) -f CMakeFiles/problem_sloving.dir/build.make CMakeFiles/problem_sloving.dir/build
 .PHONY : problem_sloving/fast
-
-#=============================================================================
-# Target rules for targets named 4-3a
-
-# Build rule for target.
-4-3a: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 4-3a
-.PHONY : 4-3a
-
-# fast build rule for target.
-4-3a/fast:
-	$(MAKE) -f CMakeFiles/4-3a.dir/build.make CMakeFiles/4-3a.dir/build
-.PHONY : 4-3a/fast
-
-#=============================================================================
-# Target rules for targets named 4-3c
-
-# Build rule for target.
-4-3c: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 4-3c
-.PHONY : 4-3c
-
-# fast build rule for target.
-4-3c/fast:
-	$(MAKE) -f CMakeFiles/4-3c.dir/build.make CMakeFiles/4-3c.dir/build
-.PHONY : 4-3c/fast
-
-#=============================================================================
-# Target rules for targets named 4-3d
-
-# Build rule for target.
-4-3d: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 4-3d
-.PHONY : 4-3d
-
-# fast build rule for target.
-4-3d/fast:
-	$(MAKE) -f CMakeFiles/4-3d.dir/build.make CMakeFiles/4-3d.dir/build
-.PHONY : 4-3d/fast
-
-4-3a.o: 4-3a.cpp.o
-
-.PHONY : 4-3a.o
-
-# target to build an object file
-4-3a.cpp.o:
-	$(MAKE) -f CMakeFiles/4-3a.dir/build.make CMakeFiles/4-3a.dir/4-3a.cpp.o
-.PHONY : 4-3a.cpp.o
-
-4-3a.i: 4-3a.cpp.i
-
-.PHONY : 4-3a.i
-
-# target to preprocess a source file
-4-3a.cpp.i:
-	$(MAKE) -f CMakeFiles/4-3a.dir/build.make CMakeFiles/4-3a.dir/4-3a.cpp.i
-.PHONY : 4-3a.cpp.i
-
-4-3a.s: 4-3a.cpp.s
-
-.PHONY : 4-3a.s
-
-# target to generate assembly for a file
-4-3a.cpp.s:
-	$(MAKE) -f CMakeFiles/4-3a.dir/build.make CMakeFiles/4-3a.dir/4-3a.cpp.s
-.PHONY : 4-3a.cpp.s
-
-4-3b.o: 4-3b.cpp.o
-
-.PHONY : 4-3b.o
-
-# target to build an object file
-4-3b.cpp.o:
-	$(MAKE) -f CMakeFiles/4-3b.dir/build.make CMakeFiles/4-3b.dir/4-3b.cpp.o
-.PHONY : 4-3b.cpp.o
-
-4-3b.i: 4-3b.cpp.i
-
-.PHONY : 4-3b.i
-
-# target to preprocess a source file
-4-3b.cpp.i:
-	$(MAKE) -f CMakeFiles/4-3b.dir/build.make CMakeFiles/4-3b.dir/4-3b.cpp.i
-.PHONY : 4-3b.cpp.i
-
-4-3b.s: 4-3b.cpp.s
-
-.PHONY : 4-3b.s
-
-# target to generate assembly for a file
-4-3b.cpp.s:
-	$(MAKE) -f CMakeFiles/4-3b.dir/build.make CMakeFiles/4-3b.dir/4-3b.cpp.s
-.PHONY : 4-3b.cpp.s
-
-4-3c.o: 4-3c.cpp.o
-
-.PHONY : 4-3c.o
-
-# target to build an object file
-4-3c.cpp.o:
-	$(MAKE) -f CMakeFiles/4-3c.dir/build.make CMakeFiles/4-3c.dir/4-3c.cpp.o
-.PHONY : 4-3c.cpp.o
-
-4-3c.i: 4-3c.cpp.i
-
-.PHONY : 4-3c.i
-
-# target to preprocess a source file
-4-3c.cpp.i:
-	$(MAKE) -f CMakeFiles/4-3c.dir/build.make CMakeFiles/4-3c.dir/4-3c.cpp.i
-.PHONY : 4-3c.cpp.i
-
-4-3c.s: 4-3c.cpp.s
-
-.PHONY : 4-3c.s
-
-# target to generate assembly for a file
-4-3c.cpp.s:
-	$(MAKE) -f CMakeFiles/4-3c.dir/build.make CMakeFiles/4-3c.dir/4-3c.cpp.s
-.PHONY : 4-3c.cpp.s
-
-4-3d.o: 4-3d.cpp.o
-
-.PHONY : 4-3d.o
-
-# target to build an object file
-4-3d.cpp.o:
-	$(MAKE) -f CMakeFiles/4-3d.dir/build.make CMakeFiles/4-3d.dir/4-3d.cpp.o
-.PHONY : 4-3d.cpp.o
-
-4-3d.i: 4-3d.cpp.i
-
-.PHONY : 4-3d.i
-
-# target to preprocess a source file
-4-3d.cpp.i:
-	$(MAKE) -f CMakeFiles/4-3d.dir/build.make CMakeFiles/4-3d.dir/4-3d.cpp.i
-.PHONY : 4-3d.cpp.i
-
-4-3d.s: 4-3d.cpp.s
-
-.PHONY : 4-3d.s
-
-# target to generate assembly for a file
-4-3d.cpp.s:
-	$(MAKE) -f CMakeFiles/4-3d.dir/build.make CMakeFiles/4-3d.dir/4-3d.cpp.s
-.PHONY : 4-3d.cpp.s
 
 main.o: main.cpp.o
 
@@ -316,25 +156,9 @@ help:
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
-	@echo "... 4-3b"
-	@echo "... edit_cache"
-	@echo "... problem_sloving"
-	@echo "... 4-3a"
-	@echo "... 4-3c"
 	@echo "... rebuild_cache"
-	@echo "... 4-3d"
-	@echo "... 4-3a.o"
-	@echo "... 4-3a.i"
-	@echo "... 4-3a.s"
-	@echo "... 4-3b.o"
-	@echo "... 4-3b.i"
-	@echo "... 4-3b.s"
-	@echo "... 4-3c.o"
-	@echo "... 4-3c.i"
-	@echo "... 4-3c.s"
-	@echo "... 4-3d.o"
-	@echo "... 4-3d.i"
-	@echo "... 4-3d.s"
+	@echo "... problem_sloving"
+	@echo "... edit_cache"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

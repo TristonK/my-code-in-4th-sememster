@@ -17,57 +17,11 @@
 					<DistClean command="/usr/bin/make -j4 -f &quot;/home/kuangsl/my-code-in-4th-sememster/problem-sloving/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="4-3b">
-				<Option output="/home/kuangsl/my-code-in-4th-sememster/problem-sloving/cmake-build-debug/4-3b" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/kuangsl/my-code-in-4th-sememster/problem-sloving/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/usr/include/c++/5"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
-					<Add directory="/usr/include/c++/5/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/kuangsl/my-code-in-4th-sememster/problem-sloving/cmake-build-debug/Makefile&quot;  VERBOSE=1 4-3b"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/kuangsl/my-code-in-4th-sememster/problem-sloving/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/kuangsl/my-code-in-4th-sememster/problem-sloving/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/kuangsl/my-code-in-4th-sememster/problem-sloving/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="4-3b/fast">
-				<Option output="/home/kuangsl/my-code-in-4th-sememster/problem-sloving/cmake-build-debug/4-3b" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/kuangsl/my-code-in-4th-sememster/problem-sloving/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/usr/include/c++/5"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
-					<Add directory="/usr/include/c++/5/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/kuangsl/my-code-in-4th-sememster/problem-sloving/cmake-build-debug/Makefile&quot;  VERBOSE=1 4-3b/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/kuangsl/my-code-in-4th-sememster/problem-sloving/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/kuangsl/my-code-in-4th-sememster/problem-sloving/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/kuangsl/my-code-in-4th-sememster/problem-sloving/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="edit_cache">
+			<Target title="rebuild_cache">
 				<Option working_dir="/home/kuangsl/my-code-in-4th-sememster/problem-sloving/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/kuangsl/my-code-in-4th-sememster/problem-sloving/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/kuangsl/my-code-in-4th-sememster/problem-sloving/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
 					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/kuangsl/my-code-in-4th-sememster/problem-sloving/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j4 -f &quot;/home/kuangsl/my-code-in-4th-sememster/problem-sloving/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j4 -f &quot;/home/kuangsl/my-code-in-4th-sememster/problem-sloving/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
@@ -119,167 +73,17 @@
 					<DistClean command="/usr/bin/make -j4 -f &quot;/home/kuangsl/my-code-in-4th-sememster/problem-sloving/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="4-3a">
-				<Option output="/home/kuangsl/my-code-in-4th-sememster/problem-sloving/cmake-build-debug/4-3a" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/kuangsl/my-code-in-4th-sememster/problem-sloving/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/usr/include/c++/5"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
-					<Add directory="/usr/include/c++/5/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/kuangsl/my-code-in-4th-sememster/problem-sloving/cmake-build-debug/Makefile&quot;  VERBOSE=1 4-3a"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/kuangsl/my-code-in-4th-sememster/problem-sloving/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/kuangsl/my-code-in-4th-sememster/problem-sloving/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/kuangsl/my-code-in-4th-sememster/problem-sloving/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="4-3a/fast">
-				<Option output="/home/kuangsl/my-code-in-4th-sememster/problem-sloving/cmake-build-debug/4-3a" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/kuangsl/my-code-in-4th-sememster/problem-sloving/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/usr/include/c++/5"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
-					<Add directory="/usr/include/c++/5/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/kuangsl/my-code-in-4th-sememster/problem-sloving/cmake-build-debug/Makefile&quot;  VERBOSE=1 4-3a/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/kuangsl/my-code-in-4th-sememster/problem-sloving/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/kuangsl/my-code-in-4th-sememster/problem-sloving/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/kuangsl/my-code-in-4th-sememster/problem-sloving/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="4-3c">
-				<Option output="/home/kuangsl/my-code-in-4th-sememster/problem-sloving/cmake-build-debug/4-3c" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/kuangsl/my-code-in-4th-sememster/problem-sloving/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/usr/include/c++/5"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
-					<Add directory="/usr/include/c++/5/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/kuangsl/my-code-in-4th-sememster/problem-sloving/cmake-build-debug/Makefile&quot;  VERBOSE=1 4-3c"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/kuangsl/my-code-in-4th-sememster/problem-sloving/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/kuangsl/my-code-in-4th-sememster/problem-sloving/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/kuangsl/my-code-in-4th-sememster/problem-sloving/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="4-3c/fast">
-				<Option output="/home/kuangsl/my-code-in-4th-sememster/problem-sloving/cmake-build-debug/4-3c" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/kuangsl/my-code-in-4th-sememster/problem-sloving/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/usr/include/c++/5"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
-					<Add directory="/usr/include/c++/5/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/kuangsl/my-code-in-4th-sememster/problem-sloving/cmake-build-debug/Makefile&quot;  VERBOSE=1 4-3c/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/kuangsl/my-code-in-4th-sememster/problem-sloving/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/kuangsl/my-code-in-4th-sememster/problem-sloving/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/kuangsl/my-code-in-4th-sememster/problem-sloving/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="rebuild_cache">
+			<Target title="edit_cache">
 				<Option working_dir="/home/kuangsl/my-code-in-4th-sememster/problem-sloving/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/kuangsl/my-code-in-4th-sememster/problem-sloving/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/kuangsl/my-code-in-4th-sememster/problem-sloving/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/kuangsl/my-code-in-4th-sememster/problem-sloving/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/kuangsl/my-code-in-4th-sememster/problem-sloving/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="4-3d">
-				<Option output="/home/kuangsl/my-code-in-4th-sememster/problem-sloving/cmake-build-debug/4-3d" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/kuangsl/my-code-in-4th-sememster/problem-sloving/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/usr/include/c++/5"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
-					<Add directory="/usr/include/c++/5/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/kuangsl/my-code-in-4th-sememster/problem-sloving/cmake-build-debug/Makefile&quot;  VERBOSE=1 4-3d"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/kuangsl/my-code-in-4th-sememster/problem-sloving/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/kuangsl/my-code-in-4th-sememster/problem-sloving/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/kuangsl/my-code-in-4th-sememster/problem-sloving/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="4-3d/fast">
-				<Option output="/home/kuangsl/my-code-in-4th-sememster/problem-sloving/cmake-build-debug/4-3d" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/kuangsl/my-code-in-4th-sememster/problem-sloving/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/usr/include/c++/5"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
-					<Add directory="/usr/include/c++/5/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/kuangsl/my-code-in-4th-sememster/problem-sloving/cmake-build-debug/Makefile&quot;  VERBOSE=1 4-3d/fast"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/kuangsl/my-code-in-4th-sememster/problem-sloving/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
 					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/kuangsl/my-code-in-4th-sememster/problem-sloving/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j4 -f &quot;/home/kuangsl/my-code-in-4th-sememster/problem-sloving/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j4 -f &quot;/home/kuangsl/my-code-in-4th-sememster/problem-sloving/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/kuangsl/my-code-in-4th-sememster/problem-sloving/4-3a.cpp">
-			<Option target="4-3a"/>
-		</Unit>
-		<Unit filename="/home/kuangsl/my-code-in-4th-sememster/problem-sloving/4-3b.cpp">
-			<Option target="4-3b"/>
-		</Unit>
-		<Unit filename="/home/kuangsl/my-code-in-4th-sememster/problem-sloving/4-3c.cpp">
-			<Option target="4-3c"/>
-		</Unit>
-		<Unit filename="/home/kuangsl/my-code-in-4th-sememster/problem-sloving/4-3d.cpp">
-			<Option target="4-3d"/>
-		</Unit>
 		<Unit filename="/home/kuangsl/my-code-in-4th-sememster/problem-sloving/main.cpp">
 			<Option target="problem_sloving"/>
 		</Unit>

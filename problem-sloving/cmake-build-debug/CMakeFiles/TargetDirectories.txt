@@ -1,7 +1,3 @@
-/home/kuangsl/my-code-in-4th-sememster/problem-sloving/cmake-build-debug/CMakeFiles/4-3b.dir
-/home/kuangsl/my-code-in-4th-sememster/problem-sloving/cmake-build-debug/CMakeFiles/edit_cache.dir
-/home/kuangsl/my-code-in-4th-sememster/problem-sloving/cmake-build-debug/CMakeFiles/problem_sloving.dir
-/home/kuangsl/my-code-in-4th-sememster/problem-sloving/cmake-build-debug/CMakeFiles/4-3a.dir
-/home/kuangsl/my-code-in-4th-sememster/problem-sloving/cmake-build-debug/CMakeFiles/4-3c.dir
 /home/kuangsl/my-code-in-4th-sememster/problem-sloving/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/kuangsl/my-code-in-4th-sememster/problem-sloving/cmake-build-debug/CMakeFiles/4-3d.dir
+/home/kuangsl/my-code-in-4th-sememster/problem-sloving/cmake-build-debug/CMakeFiles/problem_sloving.dir
+/home/kuangsl/my-code-in-4th-sememster/problem-sloving/cmake-build-debug/CMakeFiles/edit_cache.dir
