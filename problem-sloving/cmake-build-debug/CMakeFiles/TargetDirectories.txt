@@ -1,3 +1,7 @@
 /home/kuangsl/my-code-in-4th-sememster/problem-sloving/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/kuangsl/my-code-in-4th-sememster/problem-sloving/cmake-build-debug/CMakeFiles/problem-a.dir
 /home/kuangsl/my-code-in-4th-sememster/problem-sloving/cmake-build-debug/CMakeFiles/problem_sloving.dir
+/home/kuangsl/my-code-in-4th-sememster/problem-sloving/cmake-build-debug/CMakeFiles/problem-b.dir
+/home/kuangsl/my-code-in-4th-sememster/problem-sloving/cmake-build-debug/CMakeFiles/problem-c.dir
 /home/kuangsl/my-code-in-4th-sememster/problem-sloving/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/kuangsl/my-code-in-4th-sememster/problem-sloving/cmake-build-debug/CMakeFiles/problem-d.dir

@@ -57,27 +57,27 @@ include CMakeFiles/problem-a.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/problem-a.dir/flags.make
 
-CMakeFiles/problem-a.dir/4-4a.cpp.o: CMakeFiles/problem-a.dir/flags.make
-CMakeFiles/problem-a.dir/4-4a.cpp.o: ../4-4a.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kuangsl/my-code-in-4th-sememster/problem-sloving/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/problem-a.dir/4-4a.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/problem-a.dir/4-4a.cpp.o -c /home/kuangsl/my-code-in-4th-sememster/problem-sloving/4-4a.cpp
+CMakeFiles/problem-a.dir/4-5a.cpp.o: CMakeFiles/problem-a.dir/flags.make
+CMakeFiles/problem-a.dir/4-5a.cpp.o: ../4-5a.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kuangsl/my-code-in-4th-sememster/problem-sloving/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/problem-a.dir/4-5a.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/problem-a.dir/4-5a.cpp.o -c /home/kuangsl/my-code-in-4th-sememster/problem-sloving/4-5a.cpp
 
-CMakeFiles/problem-a.dir/4-4a.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/problem-a.dir/4-4a.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kuangsl/my-code-in-4th-sememster/problem-sloving/4-4a.cpp > CMakeFiles/problem-a.dir/4-4a.cpp.i
+CMakeFiles/problem-a.dir/4-5a.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/problem-a.dir/4-5a.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kuangsl/my-code-in-4th-sememster/problem-sloving/4-5a.cpp > CMakeFiles/problem-a.dir/4-5a.cpp.i
 
-CMakeFiles/problem-a.dir/4-4a.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/problem-a.dir/4-4a.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kuangsl/my-code-in-4th-sememster/problem-sloving/4-4a.cpp -o CMakeFiles/problem-a.dir/4-4a.cpp.s
+CMakeFiles/problem-a.dir/4-5a.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/problem-a.dir/4-5a.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kuangsl/my-code-in-4th-sememster/problem-sloving/4-5a.cpp -o CMakeFiles/problem-a.dir/4-5a.cpp.s
 
 # Object files for target problem-a
 problem__a_OBJECTS = \
-"CMakeFiles/problem-a.dir/4-4a.cpp.o"
+"CMakeFiles/problem-a.dir/4-5a.cpp.o"
 
 # External object files for target problem-a
 problem__a_EXTERNAL_OBJECTS =
 
-problem-a: CMakeFiles/problem-a.dir/4-4a.cpp.o
+problem-a: CMakeFiles/problem-a.dir/4-5a.cpp.o
 problem-a: CMakeFiles/problem-a.dir/build.make
 problem-a: CMakeFiles/problem-a.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/kuangsl/my-code-in-4th-sememster/problem-sloving/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable problem-a"

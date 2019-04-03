@@ -111,6 +111,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named problem-a
+
+# Build rule for target.
+problem-a: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 problem-a
+.PHONY : problem-a
+
+# fast build rule for target.
+problem-a/fast:
+	$(MAKE) -f CMakeFiles/problem-a.dir/build.make CMakeFiles/problem-a.dir/build
+.PHONY : problem-a/fast
+
+#=============================================================================
 # Target rules for targets named problem_sloving
 
 # Build rule for target.
@@ -122,6 +135,153 @@ problem_sloving: cmake_check_build_system
 problem_sloving/fast:
 	$(MAKE) -f CMakeFiles/problem_sloving.dir/build.make CMakeFiles/problem_sloving.dir/build
 .PHONY : problem_sloving/fast
+
+#=============================================================================
+# Target rules for targets named problem-b
+
+# Build rule for target.
+problem-b: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 problem-b
+.PHONY : problem-b
+
+# fast build rule for target.
+problem-b/fast:
+	$(MAKE) -f CMakeFiles/problem-b.dir/build.make CMakeFiles/problem-b.dir/build
+.PHONY : problem-b/fast
+
+#=============================================================================
+# Target rules for targets named problem-c
+
+# Build rule for target.
+problem-c: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 problem-c
+.PHONY : problem-c
+
+# fast build rule for target.
+problem-c/fast:
+	$(MAKE) -f CMakeFiles/problem-c.dir/build.make CMakeFiles/problem-c.dir/build
+.PHONY : problem-c/fast
+
+#=============================================================================
+# Target rules for targets named problem-d
+
+# Build rule for target.
+problem-d: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 problem-d
+.PHONY : problem-d
+
+# fast build rule for target.
+problem-d/fast:
+	$(MAKE) -f CMakeFiles/problem-d.dir/build.make CMakeFiles/problem-d.dir/build
+.PHONY : problem-d/fast
+
+4-5a.o: 4-5a.cpp.o
+
+.PHONY : 4-5a.o
+
+# target to build an object file
+4-5a.cpp.o:
+	$(MAKE) -f CMakeFiles/problem-a.dir/build.make CMakeFiles/problem-a.dir/4-5a.cpp.o
+.PHONY : 4-5a.cpp.o
+
+4-5a.i: 4-5a.cpp.i
+
+.PHONY : 4-5a.i
+
+# target to preprocess a source file
+4-5a.cpp.i:
+	$(MAKE) -f CMakeFiles/problem-a.dir/build.make CMakeFiles/problem-a.dir/4-5a.cpp.i
+.PHONY : 4-5a.cpp.i
+
+4-5a.s: 4-5a.cpp.s
+
+.PHONY : 4-5a.s
+
+# target to generate assembly for a file
+4-5a.cpp.s:
+	$(MAKE) -f CMakeFiles/problem-a.dir/build.make CMakeFiles/problem-a.dir/4-5a.cpp.s
+.PHONY : 4-5a.cpp.s
+
+4-5b.o: 4-5b.cpp.o
+
+.PHONY : 4-5b.o
+
+# target to build an object file
+4-5b.cpp.o:
+	$(MAKE) -f CMakeFiles/problem-b.dir/build.make CMakeFiles/problem-b.dir/4-5b.cpp.o
+.PHONY : 4-5b.cpp.o
+
+4-5b.i: 4-5b.cpp.i
+
+.PHONY : 4-5b.i
+
+# target to preprocess a source file
+4-5b.cpp.i:
+	$(MAKE) -f CMakeFiles/problem-b.dir/build.make CMakeFiles/problem-b.dir/4-5b.cpp.i
+.PHONY : 4-5b.cpp.i
+
+4-5b.s: 4-5b.cpp.s
+
+.PHONY : 4-5b.s
+
+# target to generate assembly for a file
+4-5b.cpp.s:
+	$(MAKE) -f CMakeFiles/problem-b.dir/build.make CMakeFiles/problem-b.dir/4-5b.cpp.s
+.PHONY : 4-5b.cpp.s
+
+4-5c.o: 4-5c.cpp.o
+
+.PHONY : 4-5c.o
+
+# target to build an object file
+4-5c.cpp.o:
+	$(MAKE) -f CMakeFiles/problem-c.dir/build.make CMakeFiles/problem-c.dir/4-5c.cpp.o
+.PHONY : 4-5c.cpp.o
+
+4-5c.i: 4-5c.cpp.i
+
+.PHONY : 4-5c.i
+
+# target to preprocess a source file
+4-5c.cpp.i:
+	$(MAKE) -f CMakeFiles/problem-c.dir/build.make CMakeFiles/problem-c.dir/4-5c.cpp.i
+.PHONY : 4-5c.cpp.i
+
+4-5c.s: 4-5c.cpp.s
+
+.PHONY : 4-5c.s
+
+# target to generate assembly for a file
+4-5c.cpp.s:
+	$(MAKE) -f CMakeFiles/problem-c.dir/build.make CMakeFiles/problem-c.dir/4-5c.cpp.s
+.PHONY : 4-5c.cpp.s
+
+4-5d.o: 4-5d.cpp.o
+
+.PHONY : 4-5d.o
+
+# target to build an object file
+4-5d.cpp.o:
+	$(MAKE) -f CMakeFiles/problem-d.dir/build.make CMakeFiles/problem-d.dir/4-5d.cpp.o
+.PHONY : 4-5d.cpp.o
+
+4-5d.i: 4-5d.cpp.i
+
+.PHONY : 4-5d.i
+
+# target to preprocess a source file
+4-5d.cpp.i:
+	$(MAKE) -f CMakeFiles/problem-d.dir/build.make CMakeFiles/problem-d.dir/4-5d.cpp.i
+.PHONY : 4-5d.cpp.i
+
+4-5d.s: 4-5d.cpp.s
+
+.PHONY : 4-5d.s
+
+# target to generate assembly for a file
+4-5d.cpp.s:
+	$(MAKE) -f CMakeFiles/problem-d.dir/build.make CMakeFiles/problem-d.dir/4-5d.cpp.s
+.PHONY : 4-5d.cpp.s
 
 main.o: main.cpp.o
 
@@ -157,8 +317,24 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
+	@echo "... problem-a"
 	@echo "... problem_sloving"
+	@echo "... problem-b"
+	@echo "... problem-c"
 	@echo "... edit_cache"
+	@echo "... problem-d"
+	@echo "... 4-5a.o"
+	@echo "... 4-5a.i"
+	@echo "... 4-5a.s"
+	@echo "... 4-5b.o"
+	@echo "... 4-5b.i"
+	@echo "... 4-5b.s"
+	@echo "... 4-5c.o"
+	@echo "... 4-5c.i"
+	@echo "... 4-5c.s"
+	@echo "... 4-5d.o"
+	@echo "... 4-5d.i"
+	@echo "... 4-5d.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

@@ -65,13 +65,50 @@ CMAKE_SOURCE_DIR = /home/kuangsl/my-code-in-4th-sememster/problem-sloving
 CMAKE_BINARY_DIR = /home/kuangsl/my-code-in-4th-sememster/problem-sloving/cmake-build-debug
 
 #=============================================================================
+# Target rules for target CMakeFiles/problem-a.dir
+
+# All Build rule for target.
+CMakeFiles/problem-a.dir/all:
+	$(MAKE) -f CMakeFiles/problem-a.dir/build.make CMakeFiles/problem-a.dir/depend
+	$(MAKE) -f CMakeFiles/problem-a.dir/build.make CMakeFiles/problem-a.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kuangsl/my-code-in-4th-sememster/problem-sloving/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target problem-a"
+.PHONY : CMakeFiles/problem-a.dir/all
+
+# Include target in all.
+all: CMakeFiles/problem-a.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/problem-a.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kuangsl/my-code-in-4th-sememster/problem-sloving/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/problem-a.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kuangsl/my-code-in-4th-sememster/problem-sloving/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/problem-a.dir/rule
+
+# Convenience name for target.
+problem-a: CMakeFiles/problem-a.dir/rule
+
+.PHONY : problem-a
+
+# clean rule for target.
+CMakeFiles/problem-a.dir/clean:
+	$(MAKE) -f CMakeFiles/problem-a.dir/build.make CMakeFiles/problem-a.dir/clean
+.PHONY : CMakeFiles/problem-a.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/problem-a.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/problem_sloving.dir
 
 # All Build rule for target.
 CMakeFiles/problem_sloving.dir/all:
 	$(MAKE) -f CMakeFiles/problem_sloving.dir/build.make CMakeFiles/problem_sloving.dir/depend
 	$(MAKE) -f CMakeFiles/problem_sloving.dir/build.make CMakeFiles/problem_sloving.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kuangsl/my-code-in-4th-sememster/problem-sloving/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target problem_sloving"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kuangsl/my-code-in-4th-sememster/problem-sloving/cmake-build-debug/CMakeFiles --progress-num=9,10 "Built target problem_sloving"
 .PHONY : CMakeFiles/problem_sloving.dir/all
 
 # Include target in all.
@@ -98,6 +135,117 @@ CMakeFiles/problem_sloving.dir/clean:
 
 # clean rule for target.
 clean: CMakeFiles/problem_sloving.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/problem-b.dir
+
+# All Build rule for target.
+CMakeFiles/problem-b.dir/all:
+	$(MAKE) -f CMakeFiles/problem-b.dir/build.make CMakeFiles/problem-b.dir/depend
+	$(MAKE) -f CMakeFiles/problem-b.dir/build.make CMakeFiles/problem-b.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kuangsl/my-code-in-4th-sememster/problem-sloving/cmake-build-debug/CMakeFiles --progress-num=3,4 "Built target problem-b"
+.PHONY : CMakeFiles/problem-b.dir/all
+
+# Include target in all.
+all: CMakeFiles/problem-b.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/problem-b.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kuangsl/my-code-in-4th-sememster/problem-sloving/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/problem-b.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kuangsl/my-code-in-4th-sememster/problem-sloving/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/problem-b.dir/rule
+
+# Convenience name for target.
+problem-b: CMakeFiles/problem-b.dir/rule
+
+.PHONY : problem-b
+
+# clean rule for target.
+CMakeFiles/problem-b.dir/clean:
+	$(MAKE) -f CMakeFiles/problem-b.dir/build.make CMakeFiles/problem-b.dir/clean
+.PHONY : CMakeFiles/problem-b.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/problem-b.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/problem-c.dir
+
+# All Build rule for target.
+CMakeFiles/problem-c.dir/all:
+	$(MAKE) -f CMakeFiles/problem-c.dir/build.make CMakeFiles/problem-c.dir/depend
+	$(MAKE) -f CMakeFiles/problem-c.dir/build.make CMakeFiles/problem-c.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kuangsl/my-code-in-4th-sememster/problem-sloving/cmake-build-debug/CMakeFiles --progress-num=5,6 "Built target problem-c"
+.PHONY : CMakeFiles/problem-c.dir/all
+
+# Include target in all.
+all: CMakeFiles/problem-c.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/problem-c.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kuangsl/my-code-in-4th-sememster/problem-sloving/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/problem-c.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kuangsl/my-code-in-4th-sememster/problem-sloving/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/problem-c.dir/rule
+
+# Convenience name for target.
+problem-c: CMakeFiles/problem-c.dir/rule
+
+.PHONY : problem-c
+
+# clean rule for target.
+CMakeFiles/problem-c.dir/clean:
+	$(MAKE) -f CMakeFiles/problem-c.dir/build.make CMakeFiles/problem-c.dir/clean
+.PHONY : CMakeFiles/problem-c.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/problem-c.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/problem-d.dir
+
+# All Build rule for target.
+CMakeFiles/problem-d.dir/all:
+	$(MAKE) -f CMakeFiles/problem-d.dir/build.make CMakeFiles/problem-d.dir/depend
+	$(MAKE) -f CMakeFiles/problem-d.dir/build.make CMakeFiles/problem-d.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kuangsl/my-code-in-4th-sememster/problem-sloving/cmake-build-debug/CMakeFiles --progress-num=7,8 "Built target problem-d"
+.PHONY : CMakeFiles/problem-d.dir/all
+
+# Include target in all.
+all: CMakeFiles/problem-d.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/problem-d.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kuangsl/my-code-in-4th-sememster/problem-sloving/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/problem-d.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kuangsl/my-code-in-4th-sememster/problem-sloving/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/problem-d.dir/rule
+
+# Convenience name for target.
+problem-d: CMakeFiles/problem-d.dir/rule
+
+.PHONY : problem-d
+
+# clean rule for target.
+CMakeFiles/problem-d.dir/clean:
+	$(MAKE) -f CMakeFiles/problem-d.dir/build.make CMakeFiles/problem-d.dir/clean
+.PHONY : CMakeFiles/problem-d.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/problem-d.dir/clean
 
 .PHONY : clean
 

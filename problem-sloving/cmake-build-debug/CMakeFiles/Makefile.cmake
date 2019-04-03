@@ -46,5 +46,9 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
+  "CMakeFiles/problem-a.dir/DependInfo.cmake"
   "CMakeFiles/problem_sloving.dir/DependInfo.cmake"
+  "CMakeFiles/problem-b.dir/DependInfo.cmake"
+  "CMakeFiles/problem-c.dir/DependInfo.cmake"
+  "CMakeFiles/problem-d.dir/DependInfo.cmake"
   )
