@@ -1,0 +1,54 @@
+Problem B: Binary Image Matching(poj3690转化为long long进行hash)
+Time Limit: 1 Sec  Memory Limit: 128 MB
+
+Description
+
+The binary images are the matrix of 1 and 0. And 1 stands for white while 0 stands for black. Now here is a big binary image with height H and width W and T small binary images with height h and width w. How many small images appearing in the big image?
+Input
+
+The input is just one test case.
+The test case starts with a line containing five integers H, W, T, h and w(1 <= H, W <= 1000, 1 <= T <= 100, 1 <= h, w <= 50). The following H lines describe the H × W big binary image, each of which contains W characters '1' or '0'. The last part of the test case describe T small binary images, each of which takes h lines in the same format as big binary image(every line with w characters). There is a blank line preceding each small binary image.
+Output
+
+Print the number of small images appearing in the big image with only one line.
+Sample Input
+
+3 3 2 2 2
+100
+011
+100
+
+11
+00
+
+10
+11
+
+Sample Output
+
+1
+
+HINT
+
+You just need to make sure whether a small image appearing in the big image. You don't need to konw how many times does this small image appear in the big image.
+Another example for you:
+
+input
+
+3 3 2 2 2
+
+100
+010
+101
+
+
+11
+00
+
+10
+01
+
+ouput
+1
+
+Two-dimension string match.

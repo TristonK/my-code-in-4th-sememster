@@ -1,0 +1,50 @@
+Problem A: 数理逻辑(洛谷3375，KMP模板题)
+Time Limit: 1 Sec  Memory Limit: 128 MB
+
+Description
+
+众所周知，数理逻辑的课本内容可以被视为一个由字符随机排列组成的字符串。正在做数理逻辑作业的你现在需要在课本中寻找与作业题关键词匹配的内容，请你找到所有匹配的位置。
+
+Input
+第一行输入一个字符串s1，代表数理逻辑课本的内容（假设课本的内容全部由大写英文字母构成）
+第二行输入一个字符串s2，代表正在写作业的你需要在课本中查找的关键词
+
+数据范围：
+
+记s1的长度为N，s2的长度为M
+
+对于40%的数据，N≤50，M≤10
+
+对于80%的数据，N≤10000，M≤100
+
+对于100%的数据，N≤1000000，M≤10000
+Output
+
+若干行，每行包含一个整数，表示关键词在课本内容中出现的位置（位置从1开始）
+
+如果没有找到合适的匹配，则输出"nmdwsm"（您没电，我上门），以表达对这本课本的感激之情
+Sample Input
+
+FORALLXXEQUALSX
+X
+
+Sample Output
+
+7
+8
+15
+
+HINT
+
+测试样例2：
+
+输入:
+
+SJDFGSJDCKHEWHFWJVBEBRVWLJADJBADJHFWHATTHEHELLITIS
+
+PROOFTREE
+
+
+输出：
+
+nmdwsm

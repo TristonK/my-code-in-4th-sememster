@@ -1,1 +1,1 @@
-/usr/bin/c++  -g   CMakeFiles/problem-b.dir/4-5b.cpp.o  -o problem-b 
+/usr/bin/c++  -g   CMakeFiles/problem-b.dir/4-6b.cpp.o  -o problem-b 
