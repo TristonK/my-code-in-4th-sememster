@@ -268,16 +268,16 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/kuangsl/my-code-in-4th-sememster/problem-sloving/4-6a.cpp">
+		<Unit filename="/home/kuangsl/my-code-in-4th-sememster/problem-sloving/4-8a.cpp">
 			<Option target="problem-a"/>
 		</Unit>
-		<Unit filename="/home/kuangsl/my-code-in-4th-sememster/problem-sloving/4-6b.cpp">
+		<Unit filename="/home/kuangsl/my-code-in-4th-sememster/problem-sloving/4-8b.cpp">
 			<Option target="problem-b"/>
 		</Unit>
-		<Unit filename="/home/kuangsl/my-code-in-4th-sememster/problem-sloving/4-6c.cpp">
+		<Unit filename="/home/kuangsl/my-code-in-4th-sememster/problem-sloving/4-8c.cpp">
 			<Option target="problem-c"/>
 		</Unit>
-		<Unit filename="/home/kuangsl/my-code-in-4th-sememster/problem-sloving/4-6d.cpp">
+		<Unit filename="/home/kuangsl/my-code-in-4th-sememster/problem-sloving/4-8d.cpp">
 			<Option target="problem-d"/>
 		</Unit>
 		<Unit filename="/home/kuangsl/my-code-in-4th-sememster/problem-sloving/main.cpp">

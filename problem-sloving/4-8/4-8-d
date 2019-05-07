@@ -1,0 +1,32 @@
+LUOGU 3916
+反向建边+dfs
+
+Problem D: 阿伟转学
+Time Limit: 1 Sec  Memory Limit: 128 MB
+Submit: 77  Solved: 38
+[Submit][Status][Web Board][Creator:Imported]
+Description
+
+在呆湾有N所学校，排名为1-N的学校之间共有M条单向转学协议。由于众周知的原因，阿伟在他的学校成为了名人，所以他打算转到他能转到的排名最靠后的学校（可以转多次）。又因为除了杰哥没有人知道阿伟目前的学校是哪一所，所以你需要告诉阿伟每种情况下他应转去的学校编号。
+Input
+
+第一行2个整数N, M
+
+接下来M行, 每行两个整数U, V, 表示存在有向边(U,V)。点的编号为1, 2, ..., N
+Output
+
+输出一行N个整数
+Sample Input
+
+4 3
+1 2
+2 4
+4 3
+
+Sample Output
+
+4 4 3 4
+
+HINT
+
+1<=N,M<=1e4
